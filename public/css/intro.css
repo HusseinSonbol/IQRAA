@@ -1,0 +1,62 @@
+html,body{
+            background-color: #ddccff;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .intro{
+            color: dark;
+        }
+    
+        #novels{
+            margin: 60px;
+        }
+        
+        #novels img{
+            width: 100%;
+            height: 150px;
+            
+        }
+
+.car_img{
+    width:100%; 
+    height: 400px;
+}
+
+
+#links1,#links2{
+font-family: cursive;
+    font-size: 20px;
+}
+#row1{
+    margin: 0px;
+    text-align: center;   
+}
+#signUp{
+margin-left: 10px;
+border-radius: 20px;    
+
+}
+footer{
+background-color: #2a2f4a;
+    color: white;
+    margin: 0px;
+    
+}
+
+a{
+color: white;
+}
+a:hover{
+text-decoration: none;
+    color: cornflowerblue;
+}
+.row{
+margin: 0px;
+}
+.h1{
+text-align: center;
+color: white;    
+}

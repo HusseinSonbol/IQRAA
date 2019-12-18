@@ -1,0 +1,236 @@
+
+
+body { 
+  background-color: #1D2026;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    margin: 0px;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("../images/head.jpg");
+
+  /* Full height */
+  height: 600px; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#Log{
+text-align: center;
+font-family: cursive;
+font-size: 30px;
+margin-right:4px;     
+    
+}
+
+#Log a{
+color: blueviolet;
+}
+
+#Log a:hover{
+opacity: 0.5;
+    text-decoration: none;
+}
+
+.card{
+color: white;
+background-color: #1D2026;
+border: none;    
+}
+
+.row{
+margin: 0px;
+}
+.col-sm-12{
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+  position: relative;
+  background-color: black;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+
+img{
+width: 100%;
+height: 700px;
+}
+
+#quote{
+background-image: url(../images/blue.jpg);
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+.intro{
+background-color: black;
+    color: aliceblue;
+/*background-image: url(../images/linear-gradient.jpg);*/
+height: auto;
+font-size: 20px;
+font-family: cursive;
+ padding: 20px;
+ opacity: 1;
+ transition:all 0.5s ease;
+    
+}
+.intro:hover{
+    opacity: 0.5;
+}
+.introo{
+  border: 1px solid;
+  padding: 0px;
+  box-shadow: 2px 2px 5px 2px #888888;
+    
+}
+
+.quote{
+color: antiquewhite;    
+margin-top: 200px;
+padding: 5px;    
+font-size: 24px;
+font-family: cursive;    
+}
+
+.flip-card {
+  background-color: transparent;
+  width: auto;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+    
+}
+.flip-card-front img {
+ width: auto;
+    
+}
+
+.flip-card-back {
+  background-image: url(../images/11.jpg);
+  color: white;
+  font-family: cursive;        
+  transform: rotateY(180deg);
+}
+
+.col-lg-1{
+max-width: 7%;    
+}
+#head{
+width: 100%;
+height: 400px;   
+     box-shadow: 5px 5px 5px 8px #888888;
+}
+#types{
+height: 400px;
+}
+
+footer{
+background-color: #2a2f4a;
+    color: white;
+    margin: 0px;
+    
+}
+
+p{
+margin: 0px;
+}
+#row1{
+    margin: 0px;
+    text-align: center;   
+}
+#signUp{
+margin-left: 10px;
+border-radius: 20px;    
+
+}
+a{
+color: white;
+}
+a:hover{
+text-decoration: none;
+    color: darkblue;
+}
+
+#links1,#links2{
+font-family: cursive;
+    font-size: 20px;
+}

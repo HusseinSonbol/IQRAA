@@ -1,0 +1,230 @@
+/* Global Style */
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+p{
+    font-size: 1.6rem;
+}
+
+img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+body{
+
+    background-color: #331457;
+    width: 100%;
+    color: white;
+
+}
+
+/* Style */
+header .h2{
+    background-color: #331457;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+nav{
+    width: 100%;
+    background-color: inherit;
+    text-align: center;
+}
+nav div a img{
+    width: 65px;
+}
+main .upper2{
+    width: 100%;
+    margin-top: 40px;
+    padding: 10px 30px;
+    background-image: url("../images/bk6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+footer{
+    background-color: #230b3f;
+    color: white;
+    width: 100%;
+    height: 250px;
+    bottom: 0;
+}
+.upper2 h1{
+    line-height: 70px;
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+}
+.upper2 h2{
+    line-height: 35px;
+    font-weight: 900;
+    font-size: 28px;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+/* Classes */
+.container2 div{
+    margin: 20px 20px;
+    height: 300px;
+    width: calc(100% - 40px);
+    background-color: #331457;
+    border-radius: 10%;
+    border: 3px solid black;
+    color: white;
+}
+.container2 div img{
+    margin: 0;
+    padding: 0;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    height: 240px;
+    background-size: cover;
+}
+.container2 div h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.bottom2{
+    font-size: 25px;
+    text-align: center;
+}
+.bottom2 a{
+    color: white;
+}
+.bottom2 div{
+    width: 100%;
+}
+.bottom2 div section{
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.bottom2 div a{
+    margin-top: 10px;
+}
+.signup{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    width: 100px;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: rgb(129, 15, 15);
+    display: block;
+}
+
+@media only screen and (min-width : 960px){
+
+    /* Styles */
+    header .h2{
+        height: 70px;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+    }
+    nav div a img{
+        width: 110px;
+    }
+    main .upper2{
+        width: 100%;
+        margin-top: 70px;
+        padding: 50px 150px;
+        background-image: url("../images/bk6.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .upper2 h1{
+        line-height: 150px;
+        font-weight: 900;
+        font-size: 150px;
+        text-align: center;
+    }
+    .upper2 h2{
+        line-height: 60px;
+        font-weight: 900;
+        font-size: 60px;
+        text-align: center;
+        text-shadow: 1px 1px 1px black;
+    }
+
+    /* Classes */
+    .container2{
+        padding-top: 40px;
+    }
+    .container2 div{
+        display: inline-block;
+        margin: 20px 20px;
+        height: 800px;
+        width: calc(33% - 40px);
+        background-color: #331457;
+        border-radius: 10%;
+    }
+    .container2 div img{
+        margin: 0;
+        padding: 0;
+        border-top-left-radius: 10%;
+        border-top-right-radius: 10%;
+        height: 730px;
+        background-size: cover;
+    }
+    .container2 div h1{
+        text-align: center;
+        font-weight: 900;
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .bottom2{
+        font-size: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+    .bottom div{
+        width: 50%;
+    }
+    .bottom2 div section{
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+    .bottom2 a{
+        margin-top: 10px;
+    }
+    .signup{
+        text-align: center;
+        font-size: 50px;
+        margin: auto;
+        width: 200px;
+        margin-top: 20px;
+        height: 60px;
+        border-radius: 50px;
+        background-color: rgb(129, 15, 15);
+        display: block;
+        color: white;
+    }
+}

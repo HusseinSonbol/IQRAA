@@ -1,0 +1,73 @@
+  
+        html,body{
+            background-color:	 #e6e6ff;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+    .novels{
+            margin: 40px;
+        }
+        
+        .novels img{
+            border-radius: 30px;
+ width:300px; 
+    height:300px;        }
+
+.htitle ,.btitle{
+    border: 2px;
+    border-radius: 10px; 
+    background-color:   #8080ff;
+    font-size: 50px; 
+    margin: 20px;
+}
+
+.btitle{
+    margin: 30px;
+}
+.center {
+    text-align: center;
+    justify-content: center;
+}
+.row{
+    
+    margin: 0px;
+}
+
+#links1,#links2{
+font-family: cursive;
+    font-size: 20px;
+}
+#row1{
+    margin: 0px;
+    text-align: center;   
+}
+#signUp{
+margin-left: 10px;
+border-radius: 20px;    
+
+}
+footer{
+background-color: #2a2f4a;
+    color: white;
+    margin: 0px;
+    
+}
+
+a{
+color: white;
+}
+a:hover{
+text-decoration: none;
+    color: cornflowerblue;
+}
+.row{
+margin: 0px;
+}
+.h1{
+text-align: center;
+color: white;    
+}
+

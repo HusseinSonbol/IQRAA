@@ -1,0 +1,313 @@
+/* Global Style */
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+p{
+    font-size: 1.6rem;
+}
+
+img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+body{
+    background-color: #331457;
+    width: 100%;
+    color: white;
+}
+
+/* Style */
+header .h2{
+    background-color: #331457;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+nav{
+    width: 100%;
+    background-color: inherit;
+    text-align: center;
+}
+nav div a img{
+    width: 65px;
+}
+main .upper2{
+    width: 100%;
+    margin-top: 70px;
+    min-height: 300px;
+    padding: 10px 30px;
+    color: black;
+    background-image: url("../images/philosophy.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+footer{
+    background-color: #230b3f;
+    color: white;
+    width: 100%;
+    height: 250px;
+    bottom: 0;
+}
+.upper2 h1{
+    line-height: 90px;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+.upper2 h2{
+    line-height: 60px;
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+/* Classes */
+.container2 div{
+    margin: 20px 7%;
+    padding-bottom: 6px;
+    height: fit-content;
+    width: 86%;
+    background-color: white;
+    border-radius: 50px;
+    border: 3px solid black;
+    color: black;
+}
+div .btn{
+    margin: 0px 15px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 10px;
+    width: fit-content;
+    background-color: rgb(87, 87, 212);
+    border: none;
+}
+div .btn:hover, .btn:active{
+    background-color: rgb(59, 59, 245);
+}
+div .btn a h2{
+    line-height: 50px;
+    font-size: 28px;
+    color: white;
+}
+div .his_page{
+    background-color: inherit;
+    border: none;
+    margin: 0px 15px;
+    height: fit-content;
+    display: flex;
+    width: calc(100% - 30px);
+    align-items: center;
+}
+.container2 div img{
+    margin: 0;
+    padding: 3px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    height: 500px;
+    background-size: cover;
+}
+.container2 div h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.container2 div h2{
+    margin: 0px 10px;
+    font-weight: 900;
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: gray;
+}
+.container2 div h3{
+    margin: 0px 15px;
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.bottom2{
+    font-size: 25px;
+    text-align: center;
+}
+.bottom2 a{
+    color: white;
+}
+.bottom2 div{
+    width: 100%;
+}
+.bottom2 div section{
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.bottom2 div a{
+    margin-top: 10px;
+}
+.signup{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    width: 100px;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: rgb(129, 15, 15);
+    display: block;
+}
+
+@media only screen and (min-width : 992px){
+
+    /* Styles */
+    header .h2{
+        height: 70px;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+    }
+    nav div a img{
+        width: 110px;
+    }
+    main .upper2{
+        width: 100%;
+        margin-top: 70px;
+        min-height: 600px;
+        padding: 50px 150px;
+    }
+    .upper2 h1{
+        line-height: 150px;
+        font-weight: 900;
+        font-size: 150px;
+        text-align: center;
+        color: black;
+    }
+    .upper2 h2{
+        line-height: 60px;
+        font-weight: 900;
+        font-size: 60px;
+        text-align: center;
+        text-shadow: 1px 1px 1px black;
+    }
+
+    /* Classes */
+    .container2{
+        margin: 40px 0px;
+
+        padding-left: 10%;
+        display: inline-block;
+        align-items: center;
+        position: initial;
+    }
+    .container2 div{
+        display: inline-block;
+        position: initial;
+        margin: 30px 50px;
+        width: 500px;
+        height: 1380px;
+    }
+    div .btn{
+        margin: 10px 40px;
+        height: 50px;
+        font-weight: 900;
+        font-size: 30px;
+        margin-bottom: 10px;
+        width: fit-content;
+        background-color: rgb(87, 87, 212);
+        border: none;
+    }
+    div .btn a h2{
+        line-height: 50px;
+        font-size: 50px;
+        color: white;
+    }
+    div .his_page{
+        background-color: inherit;
+        border: none;
+        margin: 0px 15px;
+        height: fit-content;
+        display: inline-flex;
+        width: calc(100% - 30px);
+        align-items: center;
+        background: none;
+    }
+    .container2 div img{
+        margin: 0;
+        padding: 5px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        height: 730px;
+        background-size: cover;
+    }
+    .container2 div h1{
+        margin: 0px 40px;
+        text-align: center;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .container2 div h2{
+        margin: 0px 40px;
+        font-weight: 900;
+        font-size: 20px;
+        margin-bottom: 10px;
+        color: gray;
+    }
+    .container2 div h3{
+        margin: 0px 40px;
+        font-weight: 900;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .bottom2{
+        font-size: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+    .bottom div{
+        width: 50%;
+    }
+    .bottom2 div section{
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+    .bottom2 a{
+        margin-top: 10px;
+    }
+    .signup{
+        text-align: center;
+        font-size: 50px;
+        margin: auto;
+        width: 200px;
+        margin-top: 20px;
+        height: 60px;
+        border-radius: 50px;
+        background-color: rgb(129, 15, 15);
+        display: block;
+        color: white;
+    }
+}
