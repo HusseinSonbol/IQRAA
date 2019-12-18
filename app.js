@@ -92,8 +92,8 @@ app.get('/Biography.html', function (req, res) {
     res.sendFile(path.join(__dirname, '/Biography.html'));
 })
 
-app.get('/Science%20Fiction.html', function (req, res) {
-    res.sendFile(path.join(__dirname, '/Science-fiction.html'));
+app.get('/Science-Fiction.html', function (req, res) {
+    res.sendFile(path.join(__dirname, '/Science-Fiction.html'));
 })
 
 app.get('/Horror.html', function (req, res) {
